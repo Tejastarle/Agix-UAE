@@ -1,0 +1,4 @@
+Optional: save the hero clip here as  hero-dubai.mp4  (H.264, 1920x1080, muted).
+If this file is missing, the site streams the Pexels clip
+"Iconic Dubai Skyline Featuring Future Museum" by Jude Ferns (Pexels License):
+https://www.pexels.com/video/iconic-dubai-skyline-featuring-future-museum-35046256/

@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Sora', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+/* Lenis takes over smoothing when active */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* Preloader only shows on the first page of a session */
+html:not([data-intro='1']) #agix-preloader {
+  display: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #1a1930;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(239, 64, 54, 0.2);
+  color: #262262;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f6fa;
+}
+::-webkit-scrollbar-thumb {
+  background: #cfd0e0;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #262262;
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-8;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-red/60 focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-red text-white shadow-red-glow;
+  }
+  .btn-primary:hover {
+    filter: brightness(1.05);
+    transform: translateY(-1px);
+  }
+  .btn-navy {
+    @apply btn bg-navy text-white;
+  }
+  .btn-navy:hover {
+    filter: brightness(1.15);
+    transform: translateY(-1px);
+  }
+  .btn-outline {
+    @apply btn border border-line bg-white text-navy hover:border-navy/30 hover:bg-mist;
+  }
+  .btn-ghost-light {
+    @apply btn border border-white/25 bg-white/10 text-white hover:bg-white/20;
+  }
+
+  .card {
+    @apply rounded-2xl border border-line bg-white shadow-card;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-line bg-mist px-3 py-1 text-xs font-semibold uppercase tracking-wide text-red;
+  }
+
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(38, 34, 98, 0.18);
+  }
+  .text-outline-light {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgba(255, 255, 255, 0.22);
+  }
+
+  .text-brand-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(120deg, #ef4036 0%, #262262 90%);
+  }
+}
+
+/* Rendered rich-text content */
+.prose-agix {
+  @apply text-[1.05rem] leading-8 text-muted;
+}
+.prose-agix h1 {
+  @apply mb-4 mt-10 font-display text-3xl font-bold text-navy;
+}
+.prose-agix h2 {
+  @apply mb-3 mt-9 font-display text-2xl font-bold text-navy;
+}
+.prose-agix h3 {
+  @apply mb-2 mt-7 font-display text-xl font-semibold text-navy;
+}
+.prose-agix p {
+  @apply my-4;
+}
+.prose-agix ul {
+  @apply my-4 list-disc space-y-1 pl-6;
+}
+.prose-agix ol {
+  @apply my-4 list-decimal space-y-1 pl-6;
+}
+.prose-agix a {
+  @apply font-medium text-red underline underline-offset-4 hover:text-navy;
+}
+.prose-agix strong {
+  @apply text-navy;
+}
+.prose-agix code {
+  @apply rounded bg-mist px-1.5 py-0.5 font-mono text-sm text-navy;
+}
+.prose-agix blockquote {
+  @apply my-6 border-l-2 border-red pl-4 italic text-navy;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
