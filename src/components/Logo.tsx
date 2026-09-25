@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-// Uses the official AGIX International logo mark + wordmark.
+// Uses the official AGIX logo mark + wordmark.
 export default function Logo({
   variant = 'dark',
   className = '',
@@ -11,7 +11,7 @@ export default function Logo({
 }) {
   const light = variant === 'light';
   return (
-    <Link href="/" aria-label="AGIX International — home" className={`flex items-center gap-2.5 ${className}`}>
+    <Link href="/" aria-label="AGIX — home" className={`flex items-center gap-2.5 ${className}`}>
       <span
         className={`grid h-10 w-10 shrink-0 place-items-center rounded-xl transition-colors duration-300 ${
           light ? 'bg-white shadow-[0_8px_24px_-8px_rgba(0,0,0,0.5)]' : 'bg-transparent'
@@ -19,7 +19,7 @@ export default function Logo({
       >
         <Image
           src="/images/logos/agix-logo.png"
-          alt="AGIX International logo"
+          alt="AGIX logo"
           width={40}
           height={40}
           priority

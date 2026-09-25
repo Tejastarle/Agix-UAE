@@ -1,5 +1,5 @@
 -- ════════════════════════════════════════════════════════════════
---  AGIX International (agix.ae) — Supabase schema
+--  AGIX (agix.ae) — Supabase schema
 --  Supabase → SQL Editor → paste everything → Run. Safe to re-run.
 --
 --  Auth model: SUPABASE AUTH (email + password).
@@ -164,7 +164,7 @@ values
  '/images/blog/blogsDM.jpeg', 'Digital Marketing',
  array['Digital Marketing','Growth','Strategy'], 5, true,
  'Benefits of Digital Marketing for UAE Brands | AGIX',
- 'How digital marketing drives measurable growth for brands in the UAE — reach, targeting and ROI explained by AGIX International.'),
+ 'How digital marketing drives measurable growth for brands in the UAE — reach, targeting and ROI explained by AGIX.'),
 ('role-of-seo-in-digital-marketing',
  'The Role of SEO in Digital Marketing',
  'SEO is the compounding engine behind sustainable organic growth. Here is how it fits the wider strategy.',
@@ -195,7 +195,7 @@ values
  '[{"label":"Engagement","value":"+180%"},{"label":"Follower growth","value":"3.2x"},{"label":"Matchday reach","value":"+240%"}]'::jsonb,
  true,
  'Sharjah Cricket Digital Marketing Case Study | AGIX',
- 'How AGIX International scaled digital engagement and follower growth for Sharjah Cricket.'),
+ 'How AGIX scaled digital engagement and follower growth for Sharjah Cricket.'),
 ('rematco-energy-web',
  'A Conversion-First Website for Rematco Energy',
  'Rematco Energy', 'Energy',
@@ -206,5 +206,5 @@ values
  '[{"label":"Site traffic","value":"+95%"},{"label":"Conversion rate","value":"+38%"},{"label":"Load time","value":"-60%"}]'::jsonb,
  true,
  'Rematco Energy Website Case Study | AGIX',
- 'How AGIX International delivered a conversion-first website for Rematco Energy.')
+ 'How AGIX delivered a conversion-first website for Rematco Energy.')
 on conflict (slug) do nothing;

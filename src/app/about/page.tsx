@@ -11,7 +11,7 @@ export const metadata = buildMetadata({
   title: 'About',
   path: '/about',
   description:
-    'AGIX International is a diversified professional firm combining innovation and integration — a team of dynamic marketers, designers and engineers delivering result-oriented IT and digital solutions worldwide.',
+    'AGIX is a diversified professional firm combining innovation and integration — a team of dynamic marketers, designers and engineers delivering result-oriented IT and digital solutions worldwide.',
 });
 
 const values = [
@@ -32,7 +32,7 @@ export default function AboutPage() {
               <SectionHeading
                 eyebrow="About us"
                 title="Innovation and integration, in one team"
-                intro="AGIX International is a diversified professional firm — a team of dynamic professionals with an innovative mindset, striving to support customers worldwide."
+                intro="AGIX is a diversified professional firm — a team of dynamic professionals with an innovative mindset, striving to support customers worldwide."
               />
               <p className="mt-6 max-w-xl leading-8 text-muted">
                 With the right quality frame of mind, we deliver result-oriented IT solutions and
@@ -45,7 +45,7 @@ export default function AboutPage() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-3xl border border-line">
                 <Image
                   src="/images/aboutbanner.jpg"
-                  alt="The AGIX International team"
+                  alt="The AGIX team"
                   fill
                   sizes="(max-width:1024px) 100vw, 50vw"
                   className="object-cover"

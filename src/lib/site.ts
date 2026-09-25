@@ -1,12 +1,12 @@
 import type { Metadata } from 'next';
 
-// Real AGIX International details (from the company site + UAE office).
+// Real AGIX details (from the company site + UAE office).
 export const siteConfig = {
   name: 'AGIX',
-  legalName: 'AGIX International',
-  title: 'AGIX International — Creative, Digital & Growth Agency in the UAE',
+  legalName: 'AGIX',
+  title: 'AGIX — Creative, Digital & Growth Agency in the UAE',
   description:
-    'AGIX International is a full-service digital agency delivering digital marketing, web & e-commerce development, branding, UI/UX, VFX, video animation, media production and cyber security for brands across the UAE and beyond.',
+    'AGIX is a full-service digital agency delivering digital marketing, web & e-commerce development, branding, UI/UX, VFX, video animation, media production and cyber security for brands across the UAE and beyond.',
   url: process.env.NEXT_PUBLIC_SITE_URL || 'https://agix.ae',
   locale: 'en_AE',
   email: 'p.kumar@agix.ae',
@@ -33,7 +33,7 @@ export const siteConfig = {
     'penetration testing Dubai',
     'SOC monitoring UAE',
     'ISO 27001 consulting UAE',
-    'AGIX International',
+    'AGIX',
     'AGIX',
   ],
   social: {

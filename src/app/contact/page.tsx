@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   title: 'Contact',
   path: '/contact',
   description:
-    'Let’s chat about how AGIX International can support your brand. Get in touch for digital marketing, web, branding, UI/UX, VFX and cyber security in the UAE.',
+    'Let’s chat about how AGIX can support your brand. Get in touch for digital marketing, web, branding, UI/UX, VFX and cyber security in the UAE.',
 });
 
 export default function ContactPage() {

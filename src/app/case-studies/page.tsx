@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   title: 'Case Studies',
   path: '/case-studies',
   description:
-    'See how AGIX International delivers results across digital marketing, web, branding and more — for clients like Sharjah Cricket and Rematco Energy.',
+    'See how AGIX delivers results across digital marketing, web, branding and more — for clients like Sharjah Cricket and Rematco Energy.',
 });
 
 export const revalidate = 60;

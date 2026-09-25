@@ -44,7 +44,7 @@ export default function Preloader() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="mt-6 font-display text-sm font-semibold uppercase text-white"
             >
-              AGIX International
+              AGIX
             </motion.p>
             <div className="mt-5 h-[2px] w-40 overflow-hidden rounded-full bg-white/10">
               <motion.div

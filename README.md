@@ -1,6 +1,6 @@
-# AGIX International — agix.ae
+# AGIX — agix.ae
 
-Premium website for **AGIX International**: official red `#EF4036` + navy `#262262` brand, the AGIX logo, all agency services, a dedicated **Cybersecurity** practice page, a **Dubai aerial video hero**, heavy **Three.js + Framer Motion** animation, a **Supabase-authenticated admin panel** for blogs, case studies and leads, and full technical SEO.
+Premium website for **AGIX**: official red `#EF4036` + navy `#262262` brand, the AGIX logo, all agency services, a dedicated **Cybersecurity** practice page, a **Dubai aerial video hero**, heavy **Three.js + Framer Motion** animation, a **Supabase-authenticated admin panel** for blogs, case studies and leads, and full technical SEO.
 
 **Stack:** Next.js 14 (App Router) · TypeScript · Tailwind CSS · Supabase (Auth + Postgres + RLS) · Three.js / react-three-fiber · Framer Motion · Lenis smooth scroll.
 

@@ -2,7 +2,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { buildMetadata, siteConfig } from '@/lib/site';
 
-export const metadata = buildMetadata({ title: 'Privacy Policy', path: '/privacy', description: 'How AGIX International collects, uses and protects your data.' });
+export const metadata = buildMetadata({ title: 'Privacy Policy', path: '/privacy', description: 'How AGIX collects, uses and protects your data.' });
 
 export default function PrivacyPage() {
   return (

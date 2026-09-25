@@ -9,7 +9,7 @@ export const metadata = buildMetadata({
   title: 'Blog',
   path: '/blog',
   description:
-    'Insights on digital marketing, SEO, branding and growth from the AGIX International team — short, useful reads for brands in the UAE.',
+    'Insights on digital marketing, SEO, branding and growth from the AGIX team — short, useful reads for brands in the UAE.',
 });
 
 export const revalidate = 60;

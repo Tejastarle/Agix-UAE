@@ -1,6 +1,6 @@
 import type { Config } from 'tailwindcss';
 
-// AGIX International brand system.
+// AGIX brand system.
 // Extracted from the official logo: red #EF4036, navy #262262.
 const config: Config = {
   content: [

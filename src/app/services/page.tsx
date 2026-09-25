@@ -11,7 +11,7 @@ export const metadata = buildMetadata({
   title: 'Services',
   path: '/services',
   description:
-    'AGIX International services: digital marketing, website & e-commerce development, branding, UI/UX, VFX, video animation, media production and cyber security for brands in the UAE.',
+    'AGIX services: digital marketing, website & e-commerce development, branding, UI/UX, VFX, video animation, media production and cyber security for brands in the UAE.',
 });
 
 function servicesJsonLd() {

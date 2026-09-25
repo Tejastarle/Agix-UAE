@@ -1,4 +1,4 @@
-// Condensed from the "AGIX International — Cybersecurity Services Profile 2026".
+// Condensed from the "AGIX — Cybersecurity Services Profile 2026".
 
 export type CyberService = { icon: string; title: string; points: string[] };
 
@@ -112,7 +112,7 @@ export const leadership = [
 ];
 
 export const cyberTestimonials = [
-  { quote: 'An outstanding team that combines technical excellence with reliable execution. We highly value our partnership with AGIX International.', who: 'CEO, Birra Group' },
+  { quote: 'An outstanding team that combines technical excellence with reliable execution. We highly value our partnership with AGIX.', who: 'CEO, Birra Group' },
   { quote: 'AGIX is a true partner. They take the time to understand our goals, and are responsive, reliable and truly care about our success.', who: 'Soorya Kiran, Media Manager, Sharjah Cricket' },
   { quote: 'A reliable technology partner with excellent technical expertise and customer support. Very satisfied with the quality delivered.', who: 'Director, RTC Road & Traffic Engineering LLC' },
 ];

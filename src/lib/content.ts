@@ -1,4 +1,4 @@
-// Marketing content — sourced from the real AGIX International website.
+// Marketing content — sourced from the real AGIX website.
 
 export type Service = {
   slug: string;
@@ -9,7 +9,7 @@ export type Service = {
   href?: string;
 };
 
-// All services offered by AGIX International.
+// All services offered by AGIX.
 export const services: Service[] = [
   {
     slug: 'digital-marketing',

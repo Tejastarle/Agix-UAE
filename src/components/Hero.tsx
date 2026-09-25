@@ -102,7 +102,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: d + 0.9 }}
           className="mt-6 max-w-xl text-lg leading-8 text-white/80"
         >
-          AGIX International is a full-service creative, digital and cybersecurity company — marketing, web and
+          AGIX is a full-service creative, digital and cybersecurity company — marketing, web and
           e-commerce, branding, UI/UX, VFX, and enterprise security testing under one roof.
         </motion.p>
 

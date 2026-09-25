@@ -25,7 +25,7 @@ export const metadata = buildMetadata({
   title: 'Cybersecurity Services — VAPT, Red Teaming, SOC & Compliance',
   path: '/cybersecurity',
   description:
-    'AGIX International cybersecurity: web, API & mobile VAPT, cloud and network security, red teaming, IoT and OT/ICS security, AI/ML audits, 24x7 SOC, forensics and ISO 27001 / SOC 2 compliance for businesses in the UAE and India.',
+    'AGIX cybersecurity: web, API & mobile VAPT, cloud and network security, red teaming, IoT and OT/ICS security, AI/ML audits, 24x7 SOC, forensics and ISO 27001 / SOC 2 compliance for businesses in the UAE and India.',
   tags: ['cybersecurity', 'VAPT', 'penetration testing', 'SOC', 'ISO 27001', 'red team'],
 });
 

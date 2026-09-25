@@ -2,7 +2,7 @@
   "name": "agix-ae",
   "version": "1.0.0",
   "private": true,
-  "description": "AGIX International (agix.ae) — premium agency website with a custom Supabase-backed admin panel, Three.js animation and full SEO.",
+  "description": "AGIX (agix.ae) — premium agency website with a custom Supabase-backed admin panel, Three.js animation and full SEO.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

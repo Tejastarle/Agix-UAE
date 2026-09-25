@@ -11,9 +11,9 @@ export default function Footer() {
         <div>
           <div className="flex items-center gap-2.5">
             <span className="grid h-10 w-10 place-items-center rounded-lg bg-white">
-              <Image src="/images/logos/agix-logo.png" alt="AGIX International" width={32} height={32} className="object-contain" />
+              <Image src="/images/logos/agix-logo.png" alt="AGIX" width={32} height={32} className="object-contain" />
             </span>
-            <span className="font-display text-lg font-extrabold">AGIX International</span>
+            <span className="font-display text-lg font-extrabold">AGIX</span>
           </div>
           <p className="mt-4 max-w-xs text-sm leading-6 text-white/70">
             A full-service creative and digital agency. We support everything from research and
