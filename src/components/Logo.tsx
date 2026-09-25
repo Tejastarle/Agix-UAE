@@ -34,7 +34,7 @@ export default function Logo({
             light ? 'text-white/70' : 'text-muted'
           }`}
         >
-          International
+          
         </span>
       </span>
     </Link>

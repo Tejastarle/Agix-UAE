@@ -38,8 +38,8 @@ export const siteConfig = {
   ],
   social: {
     instagram: 'https://www.instagram.com/agix.in/',
-    facebook: 'https://www.facebook.com/AgixInternational/',
-    linkedin: 'https://www.linkedin.com/company/agix-international-pvt-ltd/',
+    facebook: 'https://www.facebook.com/Agix/',
+    linkedin: 'https://www.linkedin.com/company/agix--pvt-ltd/',
   },
 };
 

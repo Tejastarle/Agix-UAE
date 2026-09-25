@@ -107,7 +107,7 @@ export const clients = [
   { name: 'Rematco Energy', file: 'rematco-energy.png' },
   { name: 'Soar Impex', file: 'soar-impex.png' },
   { name: 'Trumax', file: 'trumax.png' },
-  { name: 'Rigelco International', file: 'rigelco-international.png' },
+  { name: 'Rigelco ', file: 'rigelco-.png' },
   { name: 'AK Fitness', file: 'ak-fitness.png' },
   { name: 'Omkar Planet', file: 'omkar-planet.png' },
   { name: 'Brew House Cafe', file: 'brew-house-cafe.png' },
